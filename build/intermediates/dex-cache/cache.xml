@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\user\AndroidStudioProjects\Project\app\libs\osgi-config-1.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="05127848844f07cd35aaf69f5bf8333abbd35750">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\osgi-config-1.5-2cd9efa50d302f75c2cf31793c7b1f9bb9228bc1.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\AndroidStudioProjects\Project\app\libs\ForwardingLayerApi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d71a25027770ce60dbd9236dbbf1d0517318795">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\ForwardingLayerApi-3503de25d1d99b3d020b6216d117685ff2b1cb66.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\AndroidStudioProjects\Project\app\libs\osgi.core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="30b192adacf0eba1096f18b3ac445123e212cfc9">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\osgi.core-623eeb273a6884da20b6077490c879d0b3e882b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\AndroidStudioProjects\Project\app\libs\DtnMiddlewareApi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3cb42fc1e3dc933c1bade9f65b819f2da0826478">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\DtnMiddlewareApi-03196a3a5155c2fa705a5ba37ea27250b59fadcc.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\AndroidStudioProjects\Project\app\libs\DtnMiddlewareUtil.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cbae50f0bc627c6cc82e04b728beecd1d4ae832e">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Project\app\build\intermediates\pre-dexed\debug\DtnMiddlewareUtil-61f8f6661082115a46c32f0d7d7f23d26c57d5ac.jar" />
+    </item>
+
+</items>

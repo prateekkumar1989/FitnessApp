@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+  <EditText
+      android:id="@+id/EditText_Message"
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text=""
+      android:inputType="number"
+      android:hint="Enter calibration distance in m: "/>
+
+  <Button
+      android:id="@+id/Button_Challenge"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Challenge" />
+    <Button
+        android:id="@+id/Button_Calibarate_Start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Calibration" />
+    <Button
+        android:id="@+id/Button_Calibarate_End"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Calibration" />
+  <TextView
+      android:id="@+id/TextView_Message"
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Messages Received" />
+
+
+</LinearLayout>

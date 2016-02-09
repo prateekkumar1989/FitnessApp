@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:10'
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "nus.dtn.app.broadcast"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/DtnMiddlewareApi.jar')
+    compile files('libs/DtnMiddlewareUtil.jar')
+    compile files('libs/ForwardingLayerApi.jar')
+    compile files('libs/osgi-config-1.5.jar')
+    compile files('libs/osgi.core.jar')
+}
